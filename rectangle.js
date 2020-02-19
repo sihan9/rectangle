@@ -1,4 +1,4 @@
-$(function add(x,y){
+$(function (){
   //get dom elem
   var $width  = $('#width'),
       $heigth = $('#heigth'),
