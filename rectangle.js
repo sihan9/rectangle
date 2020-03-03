@@ -21,18 +21,17 @@ $(function (){
     //get value
     var w = Number($width.val());
     var h = Number($heigth.val());
-    /*calculate
-    var p = 2*(w+h);
-    var a = w*h;*/
+
+    //calculate
     var rect = rectangle();
+
     //decimalSave
-    //console.log(decimalSave(p,2));
-    var p = decimalSave(rect.p(w,h),2),
-        a = decimalSave(rect.a(w,h),2);
+    var p = decimalSave(rect.per(w,h),2);
+    var a = decimalSave(rect.a(w,h),2);
     //output
     $per.val(p);
     $area.val(a);
-  }); 
+  }) 
 });
 
 
