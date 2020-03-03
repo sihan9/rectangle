@@ -31,7 +31,7 @@ $(function (){
     //output
     $per.val(p);
     $area.val(a);
-  }) 
+  }); 
 });
 
 
