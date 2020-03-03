@@ -21,13 +21,14 @@ $(function (){
     //get value
     var w = Number($width.val());
     var h = Number($heigth.val());
-    //calculate
+    /*calculate
     var p = 2*(w+h);
-    var a = w*h;
+    var a = w*h;*/
+    var rect = rectangle();
     //decimalSave
     //console.log(decimalSave(p,2));
-    p = decimalSave(p,2);
-    a = decimalSave(a,2);
+    var p = decimalSave(rect.p(w,h),2),
+        a = decimalSave(rect.a(w,h),2);
     //output
     $per.val(p);
     $area.val(a);

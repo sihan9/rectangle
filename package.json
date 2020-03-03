@@ -17,9 +17,11 @@
   },
   "homepage": "https://github.com/sihan9/rectangle#readme",
   "devDependencies": {
+    "chai": "^4.2.0",
     "grunt": "^1.0.4",
     "grunt-contrib-csslint": "^2.0.0",
     "grunt-eslint": "^22.0.0",
-    "grunt-htmlhint": "^0.9.13"
+    "grunt-htmlhint": "^0.9.13",
+    "grunt-mocha": "^1.2.0"
   }
 }
