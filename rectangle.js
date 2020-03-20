@@ -5,6 +5,8 @@ $(function (){
       $btn    = $('#calculate'),
       $per = $('#perimeter'),
       $area = $('#area');
+  $forkMeGH.show('https://github.com/sihan9/rectangle');
+  $bszPageFooter.show('body');
   /**
   * decimalSave
   * 小数点后面保留第n位
@@ -31,7 +33,7 @@ $(function (){
     //output
     $per.val(p);
     $area.val(a);
-  }) 
+  }); 
 });
 
 
