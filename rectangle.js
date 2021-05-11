@@ -1,0 +1,1 @@
+$(function(){var h=$("#width"),n=$("#heigth"),a=$("#calculate"),c=$("#perimeter"),i=$("#area");function l(a,e){return Math.round(a*Math.pow(10,e))/Math.pow(10,e)}$forkMeGH.show("https://github.com/sihan9/rectangle"),$bszPageFooter.show("body"),a.click(function(){var a=Number(h.val()),e=Number(n.val()),t=rectangle(),r=l(t.per(a,e),2),o=l(t.a(a,e),2);c.val(r),i.val(o)})});

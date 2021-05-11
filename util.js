@@ -1,0 +1,1 @@
+function rectangle(){return{per:function(n,r){return 2*(n+r)},a:function(n,r){return n*r}}}
